@@ -1,6 +1,6 @@
 CheapSk8 LAN is an 8-bit ISA network card based on the RTL 8019AS chip.  
 
-This project was created for cost savings over purchasing older cards on eBay or building other similar projects.
+This project was created for cost savings over purchasing older cards on eBay or building other similar projects.  This project was done by reverse engineering a 16-bit RTL8019AS board, and finding the bits needed in the datasheet to turn off 16 bit mode.
 
 By sourcing the MagJack and RTL8019AS from Aliexpress, the 93LC46 from eBay, and the discretes from Mouser or Digikey, and the PCB from JLCPCB, the bill of materials for a board is only about $7.50 when you build 20 or more.
 
@@ -28,8 +28,11 @@ RSET8019.EXE - Configuration tool for the card.
 Before configuration, edit 8019AS.CFG and add a MAC address to the 1st line.  If you are building more than one card, you should ensure that no two cards have the same address.  You can use one of the Private MAC address Allocations, known as "Locally Administered Address Ranges" and will not be used by mainstream devices or vendors. The MAC addresses in these ranges can be safely used, as long as they are unique within your network:
 
 x2-xx-xx-xx-xx-xx
+
 x6-xx-xx-xx-xx-xx
+
 xA-xx-xx-xx-xx-xx
+
 xE-xx-xx-xx-xx-xx
 
 Each pair can be any hexadecimal number. You use space instead of - in the cfg file.  For example:  52 0a 1b 3c 4e 5f 00 or 12 1a 2b 3c 4d 5e
@@ -41,3 +44,4 @@ Once you have edited the file to your liking, boot your machine with no memory m
 Once the card is programmed, you can use RSET8019.EXE at any time to change the Base address and IRQ if you plan to change your system configuration.
 
 
+Thank you to Sergey Kiselev for hosting the 8019 programming tools that I have copied over for this project.  Check out his very similar project (that's a lot more polished, and a bit more high class) over at https://github.com/skiselev/isa8_eth
