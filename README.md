@@ -28,8 +28,11 @@ RSET8019.EXE - Configuration tool for the card.
 Before configuration, edit 8019AS.CFG and add a MAC address to the 1st line.  If you are building more than one card, you should ensure that no two cards have the same address.  You can use one of the Private MAC address Allocations, known as "Locally Administered Address Ranges" and will not be used by mainstream devices or vendors. The MAC addresses in these ranges can be safely used, as long as they are unique within your network:
 
 x2-xx-xx-xx-xx-xx
+
 x6-xx-xx-xx-xx-xx
+
 xA-xx-xx-xx-xx-xx
+
 xE-xx-xx-xx-xx-xx
 
 Each pair can be any hexadecimal number. You use space instead of - in the cfg file.  For example:  52 0a 1b 3c 4e 5f 00 or 12 1a 2b 3c 4d 5e
