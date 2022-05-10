@@ -10,6 +10,8 @@ Link to RTL8019AS: https://www.aliexpress.com/item/4000545658898.html
 
 Link to 93LC46 SMT 1k PROM: https://www.ebay.com/itm/133483822518
 
+Mouser-bom.ods is a spreadsheet for the other discretes needed once you've sourced the above 3 items.
+
 Entire project is licensed under CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/  You may copy/modify/distribute this project as you see fit as long as my name and project name are listed, and the license is carried forward to your project.
 
 
