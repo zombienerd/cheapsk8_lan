@@ -1,6 +1,6 @@
 CheapSk8 LAN is an 8-bit ISA network card based on the RTL 8019AS chip.  
 
-This project was created for cost savings over purchasing older cards on eBay or building other similar projects.
+This project was created for cost savings over purchasing older cards on eBay or building other similar projects.  This project was done by reverse engineering a 16-bit RTL8019AS board, and finding the bits needed in the datasheet to turn off 16 bit mode.
 
 By sourcing the MagJack and RTL8019AS from Aliexpress, the 93LC46 from eBay, and the discretes from Mouser or Digikey, and the PCB from JLCPCB, the bill of materials for a board is only about $7.50 when you build 20 or more.
 
@@ -41,3 +41,4 @@ Once you have edited the file to your liking, boot your machine with no memory m
 Once the card is programmed, you can use RSET8019.EXE at any time to change the Base address and IRQ if you plan to change your system configuration.
 
 
+Thank you to Sergey Kiselev for hosting the 8019 programming tools that I have copied over for this project.  Check out his very similar project (that's a lot more polished, and a bit more high class) over at https://github.com/skiselev/isa8_eth
