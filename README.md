@@ -4,9 +4,9 @@ This project was created for cost savings over purchasing older cards on eBay or
 
 By sourcing the MagJack and RTL8019AS from Aliexpress, the 93LC46 from eBay, and the discretes from Mouser or Digikey, and the PCB from JLCPCB, the bill of materials for a board is only about $7.50 when you build 20 or more.
 
-Link to MagJacks: https://www.aliexpress.com/item/32845892783.html?spm=a2g0o.order_list.0.0.199a1802UDp6dN
+Link to MagJacks: https://www.aliexpress.com/item/32845892783.html
 
-Link to RTL8019AS: https://www.aliexpress.com/item/4000545658898.html?spm=a2g0o.order_list.0.0.199a1802UDp6dN
+Link to RTL8019AS: https://www.aliexpress.com/item/4000545658898.html
 
 Link to 93LC46 SMT 1k PROM: https://www.ebay.com/itm/133483822518
 
